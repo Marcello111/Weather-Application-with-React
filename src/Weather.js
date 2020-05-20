@@ -62,9 +62,9 @@ const Weather = () => {
                     {showBox &&
                     <div className="app-wrapper-result">
                         <Result
-                            location={location}
-                            temperature={temperature}
-                            description={description} 
+                            location={ location }
+                            temperature= { temperature }
+                            description={ description } 
                         />
                     </div>}      
                 </div>  
